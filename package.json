@@ -1,0 +1,29 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "generic store api built with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonnobre/store-api.git"
+  },
+  "author": "Emerson Nobre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonnobre/store-api/issues"
+  },
+  "homepage": "https://github.com/emersonnobre/store-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
